@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.txt {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background: #eee4b1;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 24px;
+  outline: none;
+  cursor: pointer;
+}
+button:active {
+  background: #f0e8c4;
+}
+.box {
+  width: 661px;
+  background: #430a5d;
+  height: 575px;
+  border-radius: 28px;
+  padding: 45px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.amou_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.amou_box label {
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+}
+.amou_box input {
+  padding: 10px 12px;
+  font-size: 24px;
+}
+.sl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.sl p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+select {
+  border-radius: 10px;
+  padding: 10px 32px;
+  display: 24px;
+  font-size: 20px;
+}
+img {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.pul {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  margin-top: 50px;
+}
